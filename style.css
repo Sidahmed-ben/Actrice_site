@@ -1,0 +1,158 @@
+*
+{
+    margin : 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+body{
+    background: #bfbfbf url('image/background\ \(1\).jpg') repeat-x;
+    font-family: Arial, sans-serif ;
+}
+
+section#general{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+
+
+header h1{
+    padding : 30px 0;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
+
+/* Main-Menu */
+
+
+#main-menu ul{
+    /* background-color: blueviolet; */
+    width: 1200px;
+    height: 500px;
+    margin: 0 0px 0 105px; 
+    padding-top: 140px;
+    transform: translate(0%,2%);
+
+}
+
+#main-menu ul li{
+    float: left;
+    width:140px;
+    height:500px;
+    /* background-color: blueviolet; */
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.bw{
+    position: absolute;
+    left:0px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('image/bw-image.jpg') no-repeat   ;
+    opacity: 0.7;
+}
+
+
+.color{
+    position: absolute;
+    left: 140px;
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('image/color-image.jpg') no-repeat   ;
+}
+
+#part2 div{
+    background-position: -140px 0px;
+}
+
+#part3 div{
+    background-position: -280px 0px;
+}
+#part4 div{
+    background-position: -420px 0px;
+}
+#part5 div{
+    background-position: -560px 0px;
+}
+
+.description{
+    position: absolute;
+    left:140px;
+    text-align: center;
+    border: 2px solid black;
+    width : 240px;
+    height: 460px;
+    padding:20px;
+    background: #fff;
+}
+
+.description h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0; 
+    text-transform: uppercase;
+    /* background-color: greenyellow; */
+}
+
+.description h3 {
+    background-color: red;
+    text-align: center;
+    padding : 10px 0px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.description p:first {
+    margin-top: 20px;
+}
+
+.description p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+section#buttons{
+    /* background-color: black; */
+    margin: 0 auto; 
+    margin-top: 200px;
+    width: 1200px;
+    height: 300px;
+    text-align: center;
+}
+
+section#buttons button{
+    background-color: black;
+    width: 150px;
+    height: 80px;
+    margin: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 2px solid red;
+    color : white
+}
+
+section#buttons button:hover{
+    background-color: brown;
+}
+
